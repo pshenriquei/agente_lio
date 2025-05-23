@@ -1,1 +1,5 @@
 .env
+.history/
+.faiss_index/
+__pycache__/
+.venv/
