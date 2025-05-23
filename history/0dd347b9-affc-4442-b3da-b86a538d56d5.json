@@ -1,0 +1,83 @@
+[
+  {
+    "type": "human",
+    "data": {
+      "content": "Qual o endpoint para consultar transações?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "O endpoint para consultar transações é GET /orders/{id}/transactions.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "vc pode me dar um exemplo q esse get me traz de resposta?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "Um exemplo de resposta que o endpoint GET /orders/{id}/transactions pode trazer é o seguinte:\n\n[\n  {\n    \"id\": \"46019c39-989e-46e9-aa7d-d8e9414396b4\",\n    \"external_id\": \"95185.99407021694\",\n    \"status\": \"CONFIRMED\",\n    \"terminal_number\": \"77102648\",\n    \"authorization_code\": \"008619\"\n  }\n]",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "esse meu get estou enviando assim order/as56d1as891sa95fd1sa98das6/transactions mas nao esta indo",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "Para enviar o endpoint correto para consultar transações, você deve utilizar a seguinte estrutura:\n\nMétodo: GET\nEndpoint: /orders/{id}/transactions\n\nCertifique-se de substituir `{id}` pelo identificador do pedido desejado. Lembre-se de que o campo \"id\" é um parâmetro de caminho obrigatório na requisição.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  }
+]

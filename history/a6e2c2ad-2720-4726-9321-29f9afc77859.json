@@ -1,0 +1,137 @@
+[
+  {
+    "type": "human",
+    "data": {
+      "content": "teste",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "I don't know.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "qual o primeiro endpoint da doc?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "Desculpe, não tenho essa informação específica. Recomendo que entre em contato com o suporte de desenvolvimento da Cielo para obter detalhes sobre o primeiro endpoint da documentação de integração.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "qual o primeiro passo para fazer uma integração via deeplink?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "O primeiro passo para fazer uma integração via deeplink é solicitar as credenciais (client-id/access-token) diretamente através do PORTAL DE DESENVOLVEDORES da Cielo.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "e depois?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "Após solicitar as credenciais via deeplink, os próximos passos incluem preencher os formulários necessários para a certificação do seu aplicativo. Após o aplicativo ser certificado, você deverá promovê-lo para produção. Para isso, acesse a home \"Meus aplicativos\", na aba \"Apps públicos\", clique em \"Ver detalhes\" do seu aplicativo e siga as instruções para preencher os formulários e concluir o processo de certificação.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "o que é o dev console?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "O Dev Console é uma plataforma onde os desenvolvedores podem visualizar, gerenciar e distribuir seus aplicativos publicados, sejam eles privados ou públicos. É um ambiente onde os aplicativos passam por certificação antes de serem disponibilizados na Cielo Store ou distribuídos para os estabelecimentos comerciais associados. Além disso, no Dev Console é possível encontrar mensagens de erro, realizar testes em tempo real com a LIO de DEV e solicitar a criação de Lojas Privadas.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  }
+]
