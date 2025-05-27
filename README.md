@@ -44,7 +44,8 @@ venv\Scripts\activate     # Windows
 ### 3. Instale as dependências
 
 ```bash
-pip install -r requirements.txt
+python -m ensurepip
+python -m pip install -r requirements.txt
 ```
 
 > Caso ainda não tenha, crie um arquivo `.env` com sua chave da OpenAI:
